@@ -1,0 +1,91 @@
+
+
+  .container h1 {
+    font-size: 40px;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+
+  .container em {
+    font-size: 13px;
+    font-family: 'PT Sans', sans-serif;
+    color: gray;
+  }
+
+
+  .form-control {
+     width: 700px;
+     height: 30px;
+  }
+
+  .col-md-8 {
+    width: 30px;
+  }
+
+
+  .btn1  {
+   color: rgb(250, 237, 237);
+   background-color: blue;
+   font-family: 'PT Sans', sans-serif;
+    width: 100px;
+    height: 30px;
+    
+ }
+
+  .container {
+    background: rgb(246, 250, 26);
+    font-family: 'PT Sans', sans-serif;
+    padding: 40px;
+  
+  }
+
+  .container2 {
+    background: rgb(246, 246, 255);
+    font-family: 'PT Sans', sans-serif;
+    padding: 40px;
+    height: 600px;
+  
+  }
+
+  .btn btn-warning {
+    background: rgb(99, 231, 82);
+    font-family: 'PT Sans', sans-serif;
+    padding: 20px;
+
+  }
+
+  .btn  {
+    background: rgb(209, 194, 194);
+    font-family: 'PT Sans', sans-serif;
+    padding: 10px;
+
+  }
+
+  .table  {
+    font: 100% sans-serif;
+  background-color: #efe;
+  border-collapse: collapse;
+  empty-cells: show;
+  border: 1px solid #7a7;
+  }
+
+  .table th {
+  text-align: left;
+  font-weight: bold;
+  font-size: 200%;
+  border-bottom: .2em solid #4ca;
+  margin-bottom: .5em;
+  padding: 30px;
+
+  }
+
+  .table thead {
+    text-align: left;
+    font-weight: bold;
+    font-size: 70%;
+    border-bottom: .2em solid #4ca;
+    margin-bottom: .5em;
+    
+  
+    }
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <section class="forml">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Teste de cookies</h1>
+                    <em>Salvar nome, e-mail e senha dentro do cookie, mostrar e excluir ele</em>
+                    <h1></h1>
+                </div>
+            </div>
+            <form>
+                <label for="nome">Nome :</label>
+                <input type="text" id="nomeid" placeholder="Seu nome" required="required" name="nome" />
+
+                <label for="senha">Senha :</label>
+                <input type="senha" id="senhaid" placeholder="123456789" name="senha" />
+
+                <label for="email">Email :</label>
+                <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+
+                <h1></h1>
+
+                <input type="submit" class="enviar" onclick="Enviar();" value="Salvar" />
+                <a href="/formulario/pagina2.html"></a>
+            </form>
+        </div>
+    </section>
+
+
+    <section class="container2">
+        <div class="row">
+            <div class="historico">
+                <h2>Historico :</h2>
+            </div>
+        </div>
+
+        <div class="tabela">
+            <table class="table table-hover table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nome</th>
+                        <th>Senha</th>
+                        <th>E-mail</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody1">
+                    <tr>
+                        <th>#</th>
+                        <th>alexandre</th>
+                        <th>555555</th>
+                        <th>alex@2345</th>
+                        <th>
+                            <button class="btn2">Editar</button>
+                            <button class="btn3">Remover</button>
+                        </th>
+                    </tr>
+                </tbody>
+                <tbody class="tbody2">
+                    <tr>
+                        <th>#</th>
+                        <th>rafael</th>
+                        <th>536388</th>
+                        <th>fael@4554</th>
+                        <th>
+                            <button class="btn2">Editar</button>
+                            <button class="btn3">Remover</button>
+                        </th>
+                    </tr>
+                </tbody>
+                <tbody class="tbody3">
+                    <tr>
+                        <th>#</th>
+                        <th>valmir</th>
+                        <th>123456</th>
+                        <th>valm@2268</th>
+                        <th>
+                            <button class="btn2">Editar</button>
+                            <button class="btn3">Remover</button>
+                        </th>
+                    </tr>
+                </tbody>
+                <tbody class="tbody4">
+                    <tr>
+                        <th>#</th>
+                        <th>daniel</th>
+                        <th>654320</th>
+                        <th>dann@7777</th>
+                        <th>
+                            <button class="btn2">Editar</button>
+                            <button class="btn3">Remover</button>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+
+
+
+    </section>
+
+    <h1></h1>
+
+
+
+
+
+</body>
+
+
+<script src="app.js"></script>
+
+</html>
